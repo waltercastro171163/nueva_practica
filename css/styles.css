@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.bg-main {
+  /* background-color: aqua; */
+  width: 90%;
+  margin: auto;
+}
+
+.font-parrafo {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-around; */
+  /* background-color: cadetblue; */
+  height: 290px;
+}
+
+.font-parrafo h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1rem;
+  background-color: crimson;
+  width: 220px;
+  height: 250px;
+  padding: 0 1em;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+}
+
+.uno {
+  font-family: cursive;
+  font-size: 1rem;
+  background-color: rgb(255, 208, 0);
+  width: 220px;
+  height: 250px;
+  padding: 0 1em;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+}
+.dos {
+  font-family: fantasy;
+  font-size: 1.5rem;
+
+  background-color: blueviolet;
+  width: 220px;
+  height: 250px;
+  padding: 0 0.3em;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 600px) {
+  .bg-main {
+    /* background-color: rgb(52, 52, 243); */
+  }
+  .font-parrafo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .font-parrafo h3 {
+    font-family: fantasy;
+  }
+  .font-parrafo p {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: white;
+  }
+}
+
+@media (min-width: 700px) {
+  .bg-main {
+    /* background-color: rgb(243, 112, 52); */
+  }
+  .font-parrafo h3 {
+    color: white;
+  }
+  .font-parrafo p {
+    color: rgb(19, 18, 18);
+  }
+}
+
+.boton {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 0.9em 1em;
+}
